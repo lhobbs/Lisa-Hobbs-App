@@ -1,0 +1,13 @@
+<div>
+<div class="col-md-9">
+<div ng-repeat="project in indexController.projects | filter: {categories: {name: activeCategory}}" >
+	<div class=" col-md-4">
+		<project-card></project-card>
+	</div>
+</div>
+</div>
+<div class="col-md-3">
+	<project-category-select active-category="activeCategory"></project-category-select>
+</div>
+<h3 class="text-center">More coming soon...</h3>
+</div>
