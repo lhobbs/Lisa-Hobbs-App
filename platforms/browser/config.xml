@@ -6,9 +6,9 @@
     <feature name="Device">
         <param name="browser-package" value="Device" />
     </feature>
-    <name>First App</name>
-    <description>Hello World sample application that responds to the deviceready event.</description>
-    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
+    <name>Lisa Hobbs</name>
+    <description>My portfolio website in app form.</description>
+    <author email="lisa@lisa-hobbs.com" href="http://lisa-hobbs.com">Lisa Hobbs</author>
     <content src="index.html" />
     <icon src="icon.png" />
     <access origin="*" />

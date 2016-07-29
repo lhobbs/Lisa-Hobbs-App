@@ -1,0 +1,9 @@
+<div class="card">
+	<img class="card-img-top img-fluid" ng-src="{{project.images.icon}}" >
+	<div class="card-block">
+		<h4 class="card-title">{{project.name}}</h4>
+		<p class="card-text">{{project.descriptionShort}}</p>
+		<span class="col-sm-12 text-center"><a ng-href="#/projects/{{project.title}}" class="btn btn-black">Learn More</a></span>
+		<span class="categories" ng-repeat="category in project.categories">{{ category.name }}<span ng-if="!$last">, </span></span>
+	</div>
+</div>
