@@ -34,6 +34,9 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        angular.element(document).ready(function() {
+            angular.bootstrap(document);
+        });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
